@@ -1,0 +1,10 @@
+[package]
+name = "facebook-archive-reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "*"
+serde_derive = "*"
+serde_json = { version = "*", features = ["raw_value"] }
+chrono = "*"
